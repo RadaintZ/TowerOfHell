@@ -72,9 +72,9 @@ Frame.BorderColor3 = Color3.fromRGB(20, 20, 20)
 Frame.Size = UDim2.new(0, 163, 0, 250)
 
 Button.Name = "Button"
-Button.Parent = RadiantTowerOfHell
+Button.Parent = Topbar
 Button.BackgroundTransparency = 1.000
-Button.Position = UDim2.new(0.110438727, 0, 0.0303490125, 0)
+Button.Position = UDim2.new(0.83436507, 0, 0.181864172, 0)
 Button.Rotation = 180.000
 Button.Size = UDim2.new(0, 20, 0, 20)
 Button.ZIndex = 2
@@ -87,7 +87,7 @@ Button.ImageRectSize = Vector2.new(36, 36)
 
 	Topbar = script.Parent.Topbar
 	ScrollingFrame = script.Parent.Topbar.ScrollingFrame
-	Button = script.Parent.Button
+	Button = script.Parent.Topbar.Button
 	
 	Button.MouseButton1Down:Connect(function()
 		if Button.Rotation == 180 then
