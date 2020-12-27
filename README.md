@@ -15,7 +15,7 @@ local Button = Instance.new("ImageButton")
 --Properties:
 
 RadiantTowerOfHell.Name = "Radiant-TowerOfHell"
-RadiantTowerOfHell.Parent = game.Workspace
+RadiantTowerOfHell.Parent = game.CoreGui
 
 Topbar.Name = "Topbar"
 Topbar.Parent = RadiantTowerOfHell
